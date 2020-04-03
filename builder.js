@@ -10,7 +10,7 @@ function buildElement(element) {
     output += "</div>";
     return output;
 }
-$.getJSON("https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json",
+$.getJSON("https://raw.githubusercontent.com/djaque/periodicTable/master/PeriodicTable.json",
     function (json) {
         console.log(json.elements);
         var lastX = 0;
